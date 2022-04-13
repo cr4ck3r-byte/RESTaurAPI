@@ -1,0 +1,50 @@
+.product_cart_container{
+    width: 368px;
+    height: 75px;
+    border: none;
+    position: relative;
+    margin-top: 30px;
+}
+.product_cart_img{
+    width: 368px;
+    height: 75px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.product_cart_btn_delete{
+    right: 10px;
+    top: 10px;
+    color: #f00;
+    font-size: 25px;
+    position: absolute;
+}
+.product_cart_name{
+    left: 10px;
+    top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;    
+}
+.product_cart_price{
+    right: 289px;
+    top: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+}
+.product_cart_quantity{
+    right: 10px;
+    top: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+}
+
+.product_cart_btn_delete:active{
+    transform: scale(0.9);
+    color: #be1313;
+    transition: all 0.5s ease;
+}

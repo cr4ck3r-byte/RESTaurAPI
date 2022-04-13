@@ -1,0 +1,38 @@
+.notification_container{
+    background: #4AC74F;
+    width: 35%;
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+    left: -62%;
+    top: 55px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    font-size: 15px;
+    transition: all 0.8s ease;
+    text-align: center;
+}
+
+.notification_exit{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
+.notification_exit:active{
+    transform: scale(.9);
+    color: rgb(212, 8, 8);
+}
+
+.notification_text{
+    margin-right: 20px;
+}
+
+.father_div > div{
+    left: 62%;
+}
